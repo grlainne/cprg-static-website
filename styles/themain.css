@@ -18,7 +18,7 @@ body {
 /*Hero Container*/
 .hero_container {
     display: flex;
-    background: url(/assets/Phil\ 1.JPG);
+    background: url(assets/Phil\ 1.JPG);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    background: url(/assets/camerafooter.jpg);
+    background: url(assets/camerafooter.jpg);
     width: 100%;
     height: 50vh;
 }
