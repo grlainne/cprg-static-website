@@ -1,0 +1,42 @@
+/*Responsiveness for Mobile*/
+@media screen and (max-width:768px) {
+    .hero_container h1{
+        font-size: 9vw;
+    }
+
+    .accordion_container {
+        width: 90vw;
+    }
+
+    .footer-container iframe {
+        max-width: 100vw;
+    }
+
+    .video {
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+
+    .footer-container {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Responsiveness for Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .card_container {
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        width: 90vw;
+    }
+
+    .footer-container iframe {
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+
+}

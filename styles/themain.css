@@ -1,0 +1,225 @@
+/*For personal reference
+body colour - #b8c4a6
+selction colour/hover - #c95a0f
+text colour over light bg - #222a2a (not pure black)
+
+
+
+*/
+
+body {
+    background-color: #b8c4a6;
+}
+
+::selection {
+    background-color: #c95a0f;
+}
+
+/*Hero Container*/
+.hero_container {
+    display: flex;
+    background: url(/assets/Phil\ 1.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_container h1 {
+    flex-direction: column;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 15px
+
+}
+
+.hero_container h1 {
+    color: white;
+    font-size: 10vh;
+}
+
+/*Content Container*/
+.card_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 2rem 0;
+    font-size: 3vh; 
+}
+
+.content_container {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 50px;
+}
+
+.content_container h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.content_des {
+    max-width: 800px;
+    margin: auto ;
+    text-align: justify;
+    font-size: larger;
+}
+
+/*Card Container*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    word-wrap: break-word;
+    gap: 2rem;
+}
+
+.card {
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0rem 0.125rem 0.125rem rgb(0 0 0);
+    border-radius: 0.5rem;
+    width: 45rem;
+    max-width: 45rem;
+}
+
+img {
+    border-radius: 0.25rem;
+    height: auto;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.subheader {
+    padding-bottom: 1rem;
+}
+
+.descrip {
+    padding: 1rem;
+}
+
+.subtitle {
+    padding-top: 1rem;
+    font-size:smaller;
+    text-align: end;
+}
+
+/*Accordion Container*/
+.accordion_container {
+    display: flex;
+    align-items: center;
+    margin: 4rem auto 4rem auto;
+    width: 80%;
+    flex-direction: column;
+    min-height: 20vh;
+  }
+
+.accordion_container h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 3vh;
+}
+
+.accordion_container p {
+    padding: 1rem;
+}
+  
+.accordion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #222a2a;
+    font-size: 1rem;
+    background-color: #7a9375;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+.accordion:active {
+    background-color: #b8c4a6;
+}
+  
+.accordion:hover {
+    background-color: #c95a0f;
+}
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #b8c4a6;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+  }
+  
+/*Video Section*/
+.video_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom:2%;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 50%;
+}
+
+/*Footer*/
+.footer-container {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background: url(/assets/camerafooter.jpg);
+    width: 100%;
+    height: 50vh;
+}
+
+  
+a:link { 
+    text-decoration: none; 
+} 
+  
+.footer-links {
+    padding: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+  
+.footer-container iframe{
+    display: flex;
+    margin: auto;
+    max-height: 30vh;
+}
+
+.svg {
+    filter: invert(100%);
+
+}
+  
+.cc {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+}
