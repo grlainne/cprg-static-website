@@ -142,8 +142,8 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #222a2a;
-    font-size: 1rem;
+    color: #ffffff;
+    font-size: 1.5rem;
     background-color: #7a9375;
     cursor: pointer;
     padding: 20px;
@@ -174,12 +174,18 @@ img {
 .video_container {
     display: flex;
     justify-content: center;
-    padding-bottom:2%;
 }
 
 .video {
     aspect-ratio: 16 / 9;
     width: 50%;
+}
+
+.videocaption {
+    display: flex;
+    justify-content: center;
+    padding-bottom:2%;
+    color: #222a2a;
 }
 
 /*Footer*/
@@ -193,11 +199,25 @@ img {
     width: 100%;
     height: 50vh;
 }
-
   
 a:link { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
     text-decoration: none; 
+    color: #ffffff;
 } 
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: #c95a0f;
+  }
+  
+  a:active {
+    color: blue;
+  }
   
 .footer-links {
     padding: 50px;
